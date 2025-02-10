@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #262423;
+}
+
+.navbar {
+    height: 79.2px;
+    background-color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-img {
+    width: 230px;
+    height: 40px;
+}
+
+img {
+    width: 230px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav-normal-buttons {
+    width: 50%;
+    text-align: center;
+}
+
+.selects {
+    color: #ffffff;
+    background-color: #313131;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.selects:hover {
+    color: #04b104d6;
+}
+
+.account-button {
+    color: #ffffff;
+    background-color: #313131;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.account-button:hover {
+    color: #04b104d6;
+}
+
+.account-option {
+    border: solid black 5px;
+}
+
+.minecraft-banner {
+    height: 650px;
+    width: 100%;
+}
+
+.banner {
+    background-image: url(Images/minecraft-background.png);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.minecraft-buy {
+    background-color: #262423;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}    
+
+.mc-buy-heading-h2 {
+    font-size: 56px;
+    color: #ffffff;
+}
+
+.mc-buy-heading-p {
+    font-size: 20px;
+}
+
+.mc-heading-icon-p i {
+    margin-right: 8px;
+    margin-top: 3.5px;
+}
+
+.mc-heading-icon-p {
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.mc-buy-heading-b {
+    cursor: pointer;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #05d505;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+.mc-buy-heading-b:hover {
+    cursor: pointer;
+    background-color: #08ff08;
+}
